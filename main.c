@@ -59,7 +59,7 @@ int			main(int ac, char **av)
 	num_block = 0;
 	if (ac != 2)
 	{
-		ft_putstr("usage: ./fillit source_file\n");
+		ft_putstr("usage: ./fillit <source_file>\n");
 		return (1);
 	}
 	error(av[1], &num_block);
